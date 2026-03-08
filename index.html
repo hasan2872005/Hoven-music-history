@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoven | Cinematic Music Composer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">HOVEN</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="fade-in">
+        <div class="hero-content">
+            <h1 class="title">HOVEN</h1>
+            <p class="tagline">Crafting Cinematic Emotion Through Sound</p>
+            <a href="#projects" class="btn-primary">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">My Story</h2>
+            <p class="bio-text">
+                Hi, I'm Hoven, a music producer and composer obsessed with cinematic storytelling. For 5 years, I've been crafting music that blends orchestral emotion, modern textures, and raw energy, all while dreaming of scoring films, games, and visual projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="featured" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wjhIfB6SaEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Music Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Days Gone</h3>
+                    <p>Cinematic Album</p>
+                    <a href="https://youtu.be/zdLvYp8Vlmw" target="_blank" class="btn-secondary">Listen Now</a>
+                </div>
+                <div class="card">
+                    <h3>Mission Impossible</h3>
+                    <p>Fight scene (with my music)</p>
+                    <a href="https://youtu.be/wjhIfB6SaEM" target="_blank" class="btn-secondary">Listen Now</a>
+                </div>
+                <div class="card">
+                    <h3>No Tomorrow</h3>
+                    <p>Electronic track (My latest release)</p>
+                    <a href="https://youtu.be/grZ46f-c7Q0" target="_blank" class="btn-secondary">Listen Now</a>
+                </div>
+                <div class="card">
+                    <h3>Spirited Away</h3>
+                    <p>Cinematic Reimagining</p>
+                    <a href="https://youtu.be/Hm2B-dIrmP4" target="_blank" class="btn-secondary">Listen Now</a>
+                </div>
+                <div class="card">
+                    <h3>Journey</h3>
+                    <p>Epic Orchestral Piece</p>
+                    <a href="https://youtu.be/wO4VXcElTI0" target="_blank" class="btn-secondary">Listen Now</a>
+                </div>
+                <div class="card">
+                    <h3>Chernobyl</h3>
+                    <p>Atmospheric Album</p>
+                    <a href="https://youtu.be/F5GxrcYNt8c" target="_blank" class="btn-secondary">Listen Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="social-links">
+                <a href="mailto:aboelsoudhasan6@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.upwork.com/freelancers/~017ad876a65a17f74f?mp_source=share" target="_blank" title="Upwork"><i class="fas fa-briefcase"></i></a>
+                <a href="https://www.instagram.com/hhhoven?igsh=OG43dW5uemxzOW5r" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/al-hasan-ahmed-69412838a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://open.spotify.com/artist/2zSNYcIrZlzJ4JPlK8dCHO?si=GlRfb4LQT8OUQeGELsz4Cg" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a>
+                <a href="https://youtube.com/@hhhoven?si=8Y0EbGESBoCeaWtn" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 Hoven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot UI -->
+    <div id="chatbot-container" class="chatbot-collapsed">
+        <div class="chatbot-header" id="chatbot-toggle">
+            <span><i class="fas fa-robot"></i> Ask Hoven AI</span>
+            <i class="fas fa-chevron-up" id="chatbot-icon"></i>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">Hello! I'm Hoven's AI assistant. Ask me about his music, style, or recent releases!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type your question...">
+                <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
